@@ -17,7 +17,11 @@ import {
   SiFirebase,
   SiPostgresql,
   SiSpringboot,
-  SiVuedotjs
+  SiVuedotjs,
+  SiDocker,
+  SiMysql,
+  SiTypescript,
+  SiOracle
 } from "react-icons/si";
 import { TbBrandFlutter } from "react-icons/tb";
 
@@ -43,6 +47,9 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -58,9 +65,6 @@ function Techstack() {
         <DiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJenkins />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -68,6 +72,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOracle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJenkins />
       </Col>
     </Row>
   );
